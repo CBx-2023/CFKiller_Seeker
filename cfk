@@ -1,0 +1,12 @@
+#!/home/hackx/TOOLS/privacy_protector_browser/.venv/bin/python
+import sys
+import os
+
+# Add root folder and article_scraper folder to python search path
+root_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, root_dir)
+
+from article_scraper.scraper import main
+
+if __name__ == "__main__":
+    main()
