@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+flow/scraped_article/
+flow/scraped_article_headless/
+flow/state_*.png
+flow/current_state.png
+flow/article_snapshot*.png
+flow/monitoring_final.png
+flow/stable_click_result.png
+spot_final.png
+spot_ph_screenshot.png
+spot_screenshot.png
+result_*.png
+cf_challenge_*.png
+article_scraper/scraped_data/
